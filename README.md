@@ -8,7 +8,7 @@ It involves Terminal but only requires to be logged in an administrator account,
 
 On OS X you must put this file within your home directory and open Terminal and run `chmod +x` on the file.
 
-For exmple `chmod +x /Users/saigon/Documents/sh/flushdns.sh`
+For exmple `chmod +x /Users/jgonrowski/Documents/sh/flushdns.sh`
 
 Now you can add it as an alias in .bash_profile, open Terminal and
 
@@ -19,7 +19,7 @@ nano .bash_profile
 
 ```plaintext
   GNU nano 2.0.6             File: .bash_profile                                
-alias flushdns="/Users/saigon/Documents/sh/flushdns.sh"
+alias flushdns="/Users/jgonrowski/Documents/sh/flushdns.sh"
 
 
 
@@ -49,7 +49,7 @@ source .bash_profile
 Usage
 Fist arguemnt is the domain, Second argument is refresh interval and Third arguemnt is if you want to exit on IP change.
 ```plaintext
-jgonrowski:~ jgonrowski$ flushdns saigon.sh 5 -c
+jgonrowski:~ jgonrowski$ flushdns google.com 5 -c
 ```
 Output
 ```plaintext
@@ -125,7 +125,7 @@ source .bash_profile
 Usage
 Fist arguemnt is the domain, Second argument is refresh interval and Third arguemnt is if you want to exit on IP change.
 ```plaintext
-jgonrowski:~ jgonrowski$ flushdns saigon.sh 5 -c
+jgonrowski:~ jgonrowski$ flushdns google.com 5 -c
 ```
 Output
 ```plaintext
