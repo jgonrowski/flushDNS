@@ -46,12 +46,12 @@ Now reload the .bash_profile by
 cd ~/
 source .bash_profile
 ```
-###Usage
+Usage
 Fist arguemnt is the domain, Second argument is refresh interval and Third arguemnt is if you want to exit on IP change.
 ```plaintext
 jgonrowski:~ jgonrowski$ flushdns saigon.sh 5 -c
 ```
-####Output
+Output
 ```plaintext
 ---------------------------------------------------------------------------
 Local DNS:
@@ -122,12 +122,12 @@ Now reload the .bash_profile by
 cd ~/
 source .bash_profile
 ```
-###Usage
+Usage
 Fist arguemnt is the domain, Second argument is refresh interval and Third arguemnt is if you want to exit on IP change.
 ```plaintext
 jgonrowski:~ jgonrowski$ flushdns saigon.sh 5 -c
 ```
-####Output
+Output
 ```plaintext
 ---------------------------------------------------------------------------
 Local DNS:
