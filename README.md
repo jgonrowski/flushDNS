@@ -1,7 +1,9 @@
 Flush DNS Bash Script
 ===
 Recently buy a domain? You can get on it alot faster by running this script. You can actually see the IP change with the script.
-##For OS X:
+
+For OS X:
+===
 It involves Terminal but only requires to be logged in an administrator account, and that accounts password to be inputted for it to run.
 
 On OS X you must put this file within your home directory and open Terminal and run `chmod +x` on the file.
@@ -76,7 +78,8 @@ google.com mail is handled by 50 alt4.aspmx.l.google.com.
  ---------------------------------------------------------------------------                                                      
 ```
 
-###For Linux:
+For Linux:
+===
 It involves opening a Terminal but only requires to be logged in an account that is in sudoers (account can use sudo), and that accounts password to be inputted for it to run.
 
 On linux put the file within your home directory and open a Terminal and run `chmod +x` on the file.
